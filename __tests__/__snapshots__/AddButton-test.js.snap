@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "opacity": 1,
+      "width": "50%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 50,
+          "height": 80,
+          "width": 80,
+        },
+        Object {
+          "backgroundColor": "#00A3CC",
+        },
+      ]
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/img/addButton.png",
+        }
+      }
+      style={
+        Object {
+          "marginLeft": 28,
+          "marginTop": 18,
+          "width": "30%",
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "montserratRegular",
+          "fontSize": 14,
+          "paddingTop": 15,
+        },
+        Object {
+          "color": "#00A3CC",
+        },
+      ]
+    }
+  >
+    AJOUTER UN CONTACT
+  </Text>
+</View>
+`;
